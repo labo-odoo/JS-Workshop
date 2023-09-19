@@ -3,6 +3,8 @@ const targetNumber = Math.floor(Math.random() * 100) + 1;
 
 let attempts = 0;
 
+
+
 document.getElementById('guessButton').addEventListener('click', function() {
     const guessInput = document.getElementById('guessInput');
     const message = document.querySelector('.message');
